@@ -1,0 +1,19 @@
+const skillsList = [
+    { name: "HTML5", level: "Advanced", percent: 95 },
+    { name: "CSS3", level: "Advanced", percent: 95 },
+    { name: "JavaScript (ES6+)", level: "Advanced", percent: 95 },
+    { name: "TypeScript", level: "Advanced", percent: 95 },
+    { name: "React.js", level: "Advanced", percent: 95 },
+    { name: "Next.js", level: "Beginner", percent: 25 },
+    { name: "Tailwind CSS", level: "Advanced", percent: 95 },
+    { name: "Redux / Context API", level: "Intermediate", percent: 50 },
+    { name: "zustand", level: "Intermediate", percent: 50 },
+    { name: "Git & GitHub", level: "Intermediate", percent: 50 },
+    { name: "REST API", level: "Advanced", percent: 95 },
+    { name: "Responsive Design", level: "Advanced", percent: 95 },
+    { name: "Vite / Webpack", level: "Intermediate", percent: 50 },
+    { name: "UI/UX Principles", level: "Intermediate", percent: 50 },
+    { name: "Figma (UI Design)", level: "Beginner", percent: 25 },
+    { name: "Deployment (Vercel / GitHub)", level: "Advanced", percent: 95 },
+];
+export default skillsList;
