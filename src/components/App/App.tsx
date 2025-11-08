@@ -7,6 +7,8 @@ import Menu from "../Menu/Menu"
 import { Project } from "../Project/Project"
 import { Skills } from "../Skills/Skills"
 import { ProfessionalExperience } from "../ProfessionalExperience/ProfessionalExperience"
+import { ContactMe } from "../ContactMe/ContactMe"
+import { Footer } from "../Footer/Footer"
 
 function App() {
   const aboutMeRef = useRef<HTMLDivElement | null>(null);
@@ -14,10 +16,11 @@ function App() {
   const certificateRef = useRef<HTMLDivElement | null>(null);
   const ProfessionalExperienceRef = useRef<HTMLDivElement | null>(null);
   const projectRef = useRef<HTMLDivElement | null>(null);
+  const contactMeRef = useRef<HTMLDivElement | null>(null);
 
- const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
-  ref.current?.scrollIntoView({ behavior: "smooth" });
-};
+  const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <div className="bg-cover bg-center h-screen  pt-5"
@@ -28,7 +31,8 @@ function App() {
           scrollToCertificate={() => scrollToSection(certificateRef)}
           scrollToProfessionalExperience={() => scrollToSection(ProfessionalExperienceRef)}
           scrollToProject={() => scrollToSection(projectRef)}
-          
+          scrollToContactMe={() => scrollToSection(contactMeRef)}
+
         />
         <Header />
       </div>
@@ -39,6 +43,8 @@ function App() {
         <Certificate sectionRef={certificateRef} />
         <ProfessionalExperience sectionRef={ProfessionalExperienceRef} />
         <Project sectionRef={projectRef} />
+        <ContactMe sectionRef={contactMeRef} />
+        <Footer />
       </div>
 
 

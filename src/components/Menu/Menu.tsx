@@ -7,6 +7,7 @@ type MenuProps = {
     scrollToCertificate: () => void;
     scrollToProfessionalExperience: () => void;
     scrollToProject: () => void;
+    scrollToContactMe: () => void;
 };
 export default function Menu({
     scrollToAboutMe,
@@ -14,6 +15,7 @@ export default function Menu({
     scrollToCertificate,
     scrollToProfessionalExperience,
     scrollToProject,
+    scrollToContactMe
 }: MenuProps) {
     const [open, setOpen] = useState(false);
 
@@ -40,7 +42,7 @@ export default function Menu({
                     <li onClick={scrollToProject} className="cursor-pointer" >
                         Project
                     </li>
-                    <li className="cursor-pointer" >
+                    <li onClick={scrollToContactMe} className="cursor-pointer" >
                         Contact Me
                     </li>
                 </ul>
@@ -81,7 +83,7 @@ export default function Menu({
                     <li onClick={scrollToProject} className="cursor-pointer" >
                         Project
                     </li>
-                    <li className="cursor-pointer" >
+                    <li onClick={scrollToContactMe} className="cursor-pointer" >
                         Contact Me
                     </li>
                 </ul>
