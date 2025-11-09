@@ -28,7 +28,7 @@ export const workExperience: WorkExperience[] = [
             "Collaborated with backend team to integrate RESTful APIs",
             "Improved performance and optimized UI rendering",
         ],
-        techs: ["React", "TypeScript", "TailwindCSS", "Vite", "GraphQl", "React Hood Form", "Zod",],
+        techs: ["React", "TypeScript", "TailwindCSS", "Vite", "GraphQl", "React Hook Form", "Zod",],
         location: "Remote - Duba,U.A.E",
     },
 
