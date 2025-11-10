@@ -39,7 +39,7 @@ export const AboutMe = ({ sectionRef }: { sectionRef: React.RefObject<HTMLDivEle
                                 <span className="text-6xl font-bold">
                                     +994
                                 </span>
-                                <h4 className="text-xl font-semibold">Coffe</h4>
+                                <h4 className="text-xl font-semibold">Coffee</h4>
                             </div>
                         </li>
                         <li>

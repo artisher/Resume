@@ -53,7 +53,7 @@ export const projectsData: ProjectType[] = [
         techs: ["React", "TypeScript", "TailwindCSS"],
         role: "Front-end Developer",
         date: "2025-07",
-        github: "2025-3",
+        github: "https://github.com/artisher/kharjNegar",
         demo: "https://artisher.github.io/kharjNegar/",
     },
 

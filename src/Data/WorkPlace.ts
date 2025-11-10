@@ -24,9 +24,9 @@ export const workExperience: WorkExperience[] = [
         startDate: "(2025-8)",
         endDate: "(2025-10)",
         responsibilities: [
-            "Developed responsive web applications using React and TypeScript",
-            "Collaborated with backend team to integrate RESTful APIs",
-            "Improved performance and optimized UI rendering",
+            "Implemented full form validation across all admin panel forms using React Hook Form and Zod (previously had no validation).",
+            "Developed a new management page for the video call feature.",
+            "Refactored over 12 pages of the admin panel to improve code structure and maintainability.",
         ],
         techs: ["React", "TypeScript", "TailwindCSS", "Vite", "GraphQl", "React Hook Form", "Zod",],
         location: "Remote - Duba,U.A.E",
