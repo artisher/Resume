@@ -7,7 +7,6 @@ export const Header = () => {
     return (
         <div>
 
-
             <div
                 className=" flex flex-col  gap-10 justify-center items-center py-5 lg:flex-row lg:mt-[200px] lg:gap-80"
             >

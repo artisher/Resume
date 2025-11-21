@@ -23,8 +23,10 @@ function App() {
   };
   return (
     <>
-      <div className="bg-cover bg-center h-screen  pt-5"
-        style={{ backgroundImage: `url(${bgHeader})` }}>
+      <div
+        className="bg-cover bg-center h-screen pt-5 max-h-156 lg:max-h-none"
+        style={{ backgroundImage: `url(${bgHeader})` }}
+      >
         <Menu
           scrollToAboutMe={() => scrollToSection(aboutMeRef)}
           scrollToSkills={() => scrollToSection(skillsRef)}
