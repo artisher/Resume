@@ -11,8 +11,8 @@ export const ContactForm = () => {
 
         emailjs
             .sendForm(
-                "service_wdg3ilf",   // 🔹 Service ID
-                "template_koo61ni",  // 🔹 Template ID
+                "service_em9uh4o",   // 🔹 Service ID
+                "template_6ekzypq",  // 🔹 Template ID
                 formRef.current,
                 "Fw-K-3K9Xyfa7leJD"  // 🔹 Public Key
             )

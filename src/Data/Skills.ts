@@ -4,7 +4,7 @@ const skillsList = [
     { name: "JavaScript (ES6+)", level: "Advanced", percent: 95 },
     { name: "TypeScript", level: "Advanced", percent: 95 },
     { name: "React.js", level: "Advanced", percent: 95 },
-    { name: "Next.js", level: "Beginner", percent: 25 },
+    { name: "Next.js", level: "Intermediate", percent: 50 },
     { name: "Tailwind CSS", level: "Advanced", percent: 95 },
     { name: "Redux / Context API", level: "Intermediate", percent: 50 },
     { name: "JWT", level: "Beginner", percent: 25 },
